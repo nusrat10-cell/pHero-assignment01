@@ -136,3 +136,140 @@ nav li a {
   font-size: 20px;
   color: #8987A1;
 }
+
+.testimonials {
+  margin: 80px 150px;
+  text-align: center;
+}
+
+.testimonial-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 50px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #f8f8ff;
+  border-radius: 20px;
+  padding: 30px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+}
+
+.testimonial-card h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #252432;
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewer-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.review-date {
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+}
+
+.contact-section {
+  padding: 100px 150px;
+  background-color: #f3f2ff; /* Light background for entire section */
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  flex-wrap: wrap;
+  /* background-color: white; */
+  /* border-radius: 24px; */
+  padding: 60px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.05); */
+}
+
+
+.contact-left {
+  font-size: 97px;
+  font-weight: bold;
+  color: #252432;
+  line-height: 1.2;
+  font-family: raleway;
+  /* margin-left: 10px; */
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.contact-right label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #252432;
+}
+
+
+
+
